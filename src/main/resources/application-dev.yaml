@@ -1,0 +1,17 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+app:
+  security:
+    auth:
+      username: ${AUTH_USERNAME}
+      password-hash: ${AUTH_PASSWORD_HASH}
+    jwt:
+      secret: ${JWT_SECRET}
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true

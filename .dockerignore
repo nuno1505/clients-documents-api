@@ -1,0 +1,9 @@
+.git
+.idea
+.opencode
+docs
+target
+*.iml
+*.log
+.env
+.env.*
